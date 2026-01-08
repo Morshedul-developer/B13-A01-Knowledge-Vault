@@ -150,3 +150,65 @@ header nav button{
 #banner .banner-container .banner-btn .btn-2 img{
     margin-right: 10px;
 }
+
+#foundation{
+    padding-top: 80px;
+}
+#foundation .foundation-container{
+    text-align: center;
+}
+#foundation .foundation-container .foundation-des h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#foundation .foundation-container .foundation-des p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+#foundation .foundation-container .foundation-cards{
+    display: flex;
+    gap: 24px;
+}
+#foundation .foundation-container .foundation-cards .foundation-card{
+    width: 322px;
+    padding: 69.5px 24px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#foundation .foundation-container .foundation-cards .foundation-card .card-img{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#foundation .foundation-container .foundation-cards .foundation-card h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#foundation .foundation-container .foundation-cards .foundation-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
