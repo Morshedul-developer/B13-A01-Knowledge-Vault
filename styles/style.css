@@ -256,3 +256,57 @@ header nav button{
     align-items: center;
     list-style: none;
 }
+
+#knowledge{
+    padding-top: 120px;
+}
+#knowledge .knowledge-container{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+#knowledge .knowledge-container .knowledge-des{
+    max-width: 1280px;
+    text-align: center;
+}
+#knowledge .knowledge-container .knowledge-des h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#knowledge .knowledge-container .knowledge-des .k-p-1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+    padding: 0 300px;
+}
+#knowledge .knowledge-container .knowledge-des button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 16px;
+}
+#knowledge .knowledge-container .knowledge-des .k-p-2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
