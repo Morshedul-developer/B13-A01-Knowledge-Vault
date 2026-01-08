@@ -258,7 +258,7 @@ header nav button{
 }
 
 #knowledge{
-    padding-top: 120px;
+    padding: 120px 0;
 }
 #knowledge .knowledge-container{
     background-color: #F7F6F2;
