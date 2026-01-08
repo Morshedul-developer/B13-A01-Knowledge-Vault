@@ -208,7 +208,51 @@ header nav button{
     margin-bottom: 16px;
 }
 #foundation .foundation-container .foundation-cards .foundation-card p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#system{
+    padding-top: 120px;
+}
+#system .system-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#system .system-container .system-image img{
+    max-width: 600px;
+}
+#system .system-container .system-des .para-01{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+#system .system-container .system-des h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#system .system-container .system-des .para-02{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+    margin-bottom: 40px;
+}
+#system .system-container .system-des ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+#system .system-container .system-des ul li{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    list-style: none;
 }
