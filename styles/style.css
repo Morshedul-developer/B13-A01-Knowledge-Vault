@@ -48,7 +48,7 @@ header nav button {
   font-size: 16px;
   font-weight: 600;
   padding: 12px 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #469165;
   border: none;
   border-radius: 4px;
@@ -57,7 +57,7 @@ header nav button {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-header nav button:hover{
+header nav button:hover {
   background-color: #3b7d57;
   color: #f1f1f1;
   box-shadow: 0 6px 16px rgba(59, 125, 87, 0.35);
@@ -111,10 +111,11 @@ header nav button:hover{
   color: #3b7d57;
   box-shadow: 0 6px 14px rgba(200, 200, 200, 0.25);
 }
-#banner .banner-container h1 {
+#banner .banner-container .banner-des h1 {
   font-size: 72px;
   font-weight: bold;
   line-height: 84px;
+  text-transform: capitalize;
   color: #ffffff;
   margin-bottom: 16px;
 }
@@ -149,7 +150,7 @@ header nav button:hover{
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-#banner .banner-container .banner-btn .btn-1:hover{
+#banner .banner-container .banner-btn .btn-1:hover {
   background-color: #3b7d57;
   color: #f1f1f1;
   box-shadow: 0 6px 16px rgba(59, 125, 87, 0.35);
@@ -179,6 +180,7 @@ header nav button:hover{
 #foundation .foundation-container .foundation-des h2 {
   font-size: 48px;
   font-weight: bold;
+  text-transform: capitalize;
   color: #001931;
   margin-bottom: 16px;
 }
@@ -223,6 +225,7 @@ header nav button:hover{
 #foundation .foundation-container .foundation-cards .foundation-card h5 {
   font-size: 24px;
   font-weight: 600;
+  text-transform: capitalize;
   color: #001931;
   margin-bottom: 16px;
 }
@@ -254,6 +257,7 @@ header nav button:hover{
 #system .system-container .system-des h2 {
   font-size: 48px;
   font-weight: bold;
+  text-transform: capitalize;
   color: #001931;
   margin-bottom: 16px;
 }
@@ -295,6 +299,7 @@ header nav button:hover{
 #knowledge .knowledge-container .knowledge-des h3 {
   font-size: 40px;
   font-weight: bold;
+  text-transform: capitalize;
   color: #001931;
   margin-bottom: 16px;
 }
@@ -324,7 +329,7 @@ header nav button:hover{
   -o-border-radius: 4px;
   margin-bottom: 16px;
 }
-#knowledge .knowledge-container .knowledge-des button:hover{
+#knowledge .knowledge-container .knowledge-des button:hover {
   background-color: #3b7d57;
   color: #f1f1f1;
   box-shadow: 0 6px 16px rgba(59, 125, 87, 0.35);
@@ -335,39 +340,39 @@ header nav button:hover{
   color: #627382;
 }
 
-footer{
-    background-color: #001931;
+footer {
+  background-color: #001931;
 }
-footer .footer-container{
-    padding: 120px 0 30px 0;
+footer .footer-container {
+  padding: 120px 0 30px 0;
 }
-footer .footer-container .social{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
+footer .footer-container .social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
-footer .footer-container .social .links{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+footer .footer-container .social .links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-footer .footer-container .social .links p{
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 500;
-    color: #FFFFFF;
+footer .footer-container .social .links p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #ffffff;
 }
-footer .footer-container .social .links .footer-icons{
-    display: flex;
-    gap: 16px;
+footer .footer-container .social .links .footer-icons {
+  display: flex;
+  gap: 16px;
 }
-footer .footer-container .copyright{
-    text-align: center;
-    padding-top: 30px;
-    border-top: 1px solid #627382;
+footer .footer-container .copyright {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid #627382;
 }
-footer .footer-container .copyright p{
-    font-size: 16px;
-    line-height: 24px;
-    color: #FAFAFA;
+footer .footer-container .copyright p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
 }
