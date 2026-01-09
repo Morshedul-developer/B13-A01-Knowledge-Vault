@@ -57,6 +57,11 @@ header nav button {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+header nav button:hover{
+  background-color: #3b7d57;
+  color: #f1f1f1;
+  box-shadow: 0 6px 16px rgba(59, 125, 87, 0.35);
+}
 #banner {
   background-image: url("../assets/hero-bg.png");
   width: 100%;
@@ -81,7 +86,7 @@ header nav button {
   -o-transform: translate(-50%, -50%);
   text-align: center;
 }
-#banner .banner-container .banner-des .btn {
+#banner .banner-container .banner-des .early-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,6 +105,11 @@ header nav button {
   -o-border-radius: 1000px;
   margin: auto;
   margin-bottom: 16px;
+}
+#banner .banner-container .banner-des .early-btn:hover {
+  background-color: #edf2ef;
+  color: #3b7d57;
+  box-shadow: 0 6px 14px rgba(200, 200, 200, 0.25);
 }
 #banner .banner-container h1 {
   font-size: 72px;
@@ -139,12 +149,22 @@ header nav button {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+#banner .banner-container .banner-btn .btn-1:hover{
+  background-color: #3b7d57;
+  color: #f1f1f1;
+  box-shadow: 0 6px 16px rgba(59, 125, 87, 0.35);
+}
 #banner .banner-container .banner-btn .btn-1 img {
   margin-left: 10px;
 }
 #banner .banner-container .banner-btn .btn-2 {
   border: 1px solid #ffffff;
   background-color: transparent;
+}
+#banner .banner-container .banner-btn .btn-2:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+  box-shadow: 0 8px 22px rgba(255, 255, 255, 0.22);
 }
 #banner .banner-container .banner-btn .btn-2 img {
   margin-right: 10px;
@@ -303,6 +323,11 @@ header nav button {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   margin-bottom: 16px;
+}
+#knowledge .knowledge-container .knowledge-des button:hover{
+  background-color: #3b7d57;
+  color: #f1f1f1;
+  box-shadow: 0 6px 16px rgba(59, 125, 87, 0.35);
 }
 #knowledge .knowledge-container .knowledge-des .k-p-2 {
   font-size: 16px;
