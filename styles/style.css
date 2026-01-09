@@ -48,6 +48,7 @@ header nav button {
   font-size: 16px;
   font-weight: 600;
   padding: 12px 16px;
+  color: #FFFFFF;
   background-color: #469165;
   border: none;
   border-radius: 4px;
@@ -80,14 +81,18 @@ header nav button {
   -o-transform: translate(-50%, -50%);
   text-align: center;
 }
-#banner .banner-container .banner-des .early {
+#banner .banner-container .banner-des .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2px;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
   background-color: #ffffff;
   max-width: 229px;
   padding: 8px 12px;
+  border: none;
   border-radius: 1000px;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -95,11 +100,6 @@ header nav button {
   -o-border-radius: 1000px;
   margin: auto;
   margin-bottom: 16px;
-}
-#banner .banner-container .banner-des .early p {
-  font-size: 16px;
-  font-weight: 500;
-  color: #469165;
 }
 #banner .banner-container h1 {
   font-size: 72px;
